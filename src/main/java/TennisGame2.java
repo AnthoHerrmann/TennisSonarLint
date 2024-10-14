@@ -4,15 +4,14 @@ public class TennisGame2 implements TennisGame
 {
     private int p1Point = 0;
     private int p2Point = 0;
-    
-    private String p1Res = "";
-    private String p2Res = "";
 
     public TennisGame2(String player1Name, String player2Name) {
     }
 
     public String getScore(){
         String score = "";
+        String p1Res = "";
+        String p2Res = "";
         String love = "Love";
         String fifteen = "Fifteen";
         String thirty = "Thirty";
